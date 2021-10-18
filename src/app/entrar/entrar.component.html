@@ -1,0 +1,32 @@
+<body id="img-bg" class="img js-fullheight" style="background-image: url(https://i.imgur.com/5W1hgyE.jpg);">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-lg-4">
+                    <img style="padding: -5;" class="mb-5" src="https://i.imgur.com/TdyeVNC.png" alt="" width="340px" height="90px">
+                    <div class="login-wrap p-0 mt-0">
+                        <form action="#" class="signin-form">
+                            <div class="form-group">
+                                <input [(ngModel)]='userLogin.email' for="email" name="email" id="email" type="text" class="form-control o-04" placeholder="e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input [(ngModel)]='userLogin.senha' for="senha" name="senha" id="senha" type="password" class="form-control o-04" placeholder="senha"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary submit px-3" (click)='entrar()'>Login</button>
+                            </div>
+                        </form>
+                        <a routerLink='/cadastrar'><p class="w-100 text-center">&mdash; Ou cadastre um novo usúario &mdash;</p></a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>

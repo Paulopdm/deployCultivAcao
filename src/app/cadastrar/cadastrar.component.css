@@ -1,0 +1,39 @@
+#img-bg{
+    background-image: url('https://i.imgur.com/yGq8owA.jpg');
+
+    min-height: 695px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.o-04{
+    opacity: 0.4;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    text-transform: uppercase; }
+    .btn:hover, .btn:active, .btn:focus {
+      outline: none; }
+    .btn.btn-primary {
+      background: #fbceb5 !important;
+      border: 1px solid #fbceb5 !important;
+      color: #000 !important; }
+      .btn.btn-primary:hover {
+        border: 1px solid #fbceb5;
+        background: transparent;
+        color: #fbceb5; }
+      .btn.btn-primary.btn-outline-primary {
+        border: 1px solid #fbceb5;
+        background: transparent;
+        color: #fbceb5; }
+        .btn.btn-primary.btn-outline-primary:hover {
+          border: 1px solid transparent;
+          background: #fbceb5;
+          color: #fff; }

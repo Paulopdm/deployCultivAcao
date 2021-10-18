@@ -1,0 +1,79 @@
+ul.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa{
+    font-size: 35pt;
+    color: white;
+    padding: 10px;
+}
+
+.fa-instagram:hover{
+    color: black;
+}
+
+.fa-linkedin-square:hover{
+    color: black;
+}
+
+.bgMarrom1{
+    background-color: #be6731;
+}
+
+.bgMarrom2{
+    background-color: #b55219;
+}
+
+.bgMarrom3{
+    background-color: #8d2a00;
+}
+
+.verde1{
+    background-color: #76704c;
+}
+
+.verde2{
+    background-color: #545e46;
+}
+
+.verde3{
+    background-color: #1f2d16;
+}
+
+.fonteVerde1{
+    color: #76704c;
+}
+
+.fonteVerde2{
+    color: #545e46;
+}
+
+.fonteVerde3{
+    color: #1f2d16;
+}
+
+.fonteMarrom1{
+    color: #be6731;
+}
+
+.fonteMarrom2{
+    color: #b55219;
+}
+
+.fonteMarrom3{
+    color: #8d2a00;
+}
+
+.verdeTitulo{
+    color: #001f01;
+}
+
+
+
